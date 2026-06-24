@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.cover-img {
+  width: 75vh;
+}
+
+.logo {
+  background-color: black;
+  opacity: 20%;
+  border-radius: 8px;
+  width: 55vh;
+  position:absolute;
+  top: 10vh;
+  left: 10vh;
+  text-align: center;
+  display: inline;
+}
+
+.logo-img {
+  width: 10vh;
+}
+
+.logo-txt {
+  display: inline;
+  font-size: 3rem;
+  position:relative;
+  bottom: 5vh;
+  padding-bottom: 20px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
