@@ -125,3 +125,14 @@ a {
   text-decoration: none;
   color: teal;
 }
+
+span {
+  position: absolute;
+  bottom: 1vh;
+  left: 12vw;
+  color: white;
+}
+
+span > a {
+  color: yellow;
+}
