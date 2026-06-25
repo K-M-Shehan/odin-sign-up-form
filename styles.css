@@ -77,7 +77,8 @@ button:hover {
 }
 
 input {
-  border-radius: 8px;
+  border: 2px solid grey;
+  border-radius: 5px;
   height: 3vh;
   width: 15vw;
   margin-top: 0.5vh;
@@ -90,4 +91,16 @@ label {
 
 p {
   margin-top: 5vh;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:active {
+  border-color: blue;
+}
+
+input:user-valid {
+  border-color: green;
 }

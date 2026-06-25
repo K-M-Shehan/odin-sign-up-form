@@ -30,47 +30,47 @@
               <div class="form-container">
                  <div class="form-item">
                   <label for="first-name">FIRST NAME</label>
-                  <input type="text" name="first-name" id="first-name">
+                  <input type="text" name="first-name" id="first-name" required maxlength="155" placeholder="Luffy">
                 </div>
                 <div class="form-item">
                   <label for="last-name">LAST NAME</label>
-                  <input type="text" name="last-name" id="last-name">
+                  <input type="text" name="last-name" id="last-name" maxlength="155" placeholder="Monkey D.">
                 </div>
               </div>
-          </article> 
+          </article>
 
           <article>
               <div class="form-container">
                 <div class="form-item">
                   <label for="email-address">EMAIL ADDRESS</label>
-                  <input type="email" name="email-address" id="email-address">
+                  <input type="email" name="email-address" id="email-address" required placeholder="transponder@snail.com">
                 </div>
                 <div class="form-item">
                   <label for="phone-number">PHONE</label>
-                  <input type="text" name="phone-number" id="phone-number">
+                  <input type="text" name="phone-number" id="phone-number" required maxlength="16" placeholder="00xxxxxxxxxxxxxx">
                 </div>
               </div>
-          </article> 
+          </article>
 
           <article>
               <div class="form-container">
                 <div class="form-item">
                   <label for="password">PASSWORD</label>
-                  <input type="password" name="password" id="password">
+                  <input type="password" name="password" id="password" required minlength="15">
                 </div>
                 <div class="form-item">
                   <label for="confirm-password">CONFIRM PASSWORD</label>
-                  <input type="password" name="confirm-password" id="confirm-password">
+                  <input type="password" name="confirm-password" id="confirm-password" required minlength="15">
                 </div>
               </div>
-          </article> 
-        </div>
+          </article>
 
-         
+        </div>
 
         <article>
           <button type="submit">Join</button>
         </article>
+
       </form>
 
       <p>Already have an account? Log in</p>
