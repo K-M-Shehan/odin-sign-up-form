@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .cover-img {
@@ -39,7 +40,7 @@ body {
 }
 
 .form-section {
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 
 .form-container {
@@ -66,4 +67,27 @@ button {
 
 button:hover {
   background-color: rosybrown;
+}
+
+.input-box {
+  box-shadow: 0 8px 16px -6px rgba(0, 0, 0, 0.2);
+  clip-path: inset(-100px 0px -100px 0px);
+  padding-bottom: 2vh;
+  margin-bottom: 4vh;
+}
+
+input {
+  border-radius: 8px;
+  height: 3vh;
+  width: 15vw;
+  margin-top: 0.5vh;
+  font-size: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+p {
+  margin-top: 5vh;
 }
