@@ -1,6 +1,22 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('res/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('res/Marlboro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'MyCustomFont', Impact, serif;
 }
 
 .cover-img {
@@ -8,8 +24,7 @@ body {
 }
 
 .logo {
-  background-color: black;
-  opacity: 20%;
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 8px;
   width: 55vh;
   position:absolute;
@@ -25,12 +40,12 @@ body {
 
 .logo-txt {
   display: inline;
-  font-size: 3rem;
+  font-size: 4.4rem;
   position:relative;
-  bottom: 5vh;
+  bottom: 4vh;
   padding-bottom: 20px;
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'CustomFont2', serif;
 }
 
 .container {
@@ -40,7 +55,7 @@ body {
 }
 
 .form-section {
-  margin-top: 20vh;
+  margin-top: 17vh;
 }
 
 .form-container {
@@ -57,10 +72,11 @@ body {
 
 button {
   border: none;
-  width: 10vw;
+  width: 8vw;
   height: 5vh;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
   background-color: teal;
   border-radius: 8px;
 }
@@ -103,4 +119,9 @@ input:active {
 
 input:user-valid {
   border-color: green;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
 }
