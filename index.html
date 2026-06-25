@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barto's Fanclub Registration</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="cover-img-div">
+      <img src="res/cover-img.jpg" alt="Gear 5 luffy pin on t-shirt" class="cover-img">
+        <div class="logo">
+          <img src="res/logo.png" alt="logo, arm with cross tatooed" class="logo-img">
+          <div class="logo-txt">Barto's Fanclub</div>
+        </div>
+          <span>Photo by <a href="https://unsplash.com/@adhitya_2505?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adhitya Sibikumar</a> on <a href="https://unsplash.com/photos/a-button-with-a-cartoon-character-on-it-pXW1AjQrNVU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+    </div>
+
+    <div class="form-section">
+      <h1>Join the crew!</h1>
+      <h1>Let's support our favorite Strawhats together!</h1>
+      <br>
+      <h2>Let's do this!</h2>
+      <form action="https://httpbin.org/post" method="post">
+
+        <div class="input-box">
+           <article>
+              <div class="form-container">
+                 <div class="form-item">
+                  <label for="first-name">FIRST NAME</label>
+                  <input type="text" name="first-name" id="first-name" required maxlength="155" placeholder="Luffy">
+                </div>
+                <div class="form-item">
+                  <label for="last-name">LAST NAME</label>
+                  <input type="text" name="last-name" id="last-name" maxlength="155" placeholder="Monkey D.">
+                </div>
+              </div>
+          </article>
+
+          <article>
+              <div class="form-container">
+                <div class="form-item">
+                  <label for="email-address">EMAIL ADDRESS</label>
+                  <input type="email" name="email-address" id="email-address" required placeholder="transponder@snail.com">
+                </div>
+                <div class="form-item">
+                  <label for="phone-number">PHONE</label>
+                  <input type="text" name="phone-number" id="phone-number" required maxlength="16" placeholder="00xxxxxxxxxxxxxx">
+                </div>
+              </div>
+          </article>
+
+          <article>
+              <div class="form-container">
+                <div class="form-item">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" name="password" id="password" required minlength="8">
+                </div>
+                <div class="form-item">
+                  <label for="confirm-password">CONFIRM PASSWORD</label>
+                  <input type="password" name="confirm-password" id="confirm-password" required minlength="8">
+                </div>
+              </div>
+          </article>
+
+        </div>
+
+        <article>
+          <button type="submit">Join us</button>
+        </article>
+
+      </form>
+
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </div>
+</body>
+</html>

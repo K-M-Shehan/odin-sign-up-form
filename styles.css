@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('res/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('res/Marlboro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'MyCustomFont', Impact, serif;
+}
+
+.cover-img {
+  width: 75vh;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  width: 55vh;
+  position:absolute;
+  top: 10vh;
+  left: 10vh;
+  text-align: center;
+  display: inline;
+}
+
+.logo-img {
+  width: 10vh;
+}
+
+.logo-txt {
+  display: inline;
+  font-size: 4.4rem;
+  position:relative;
+  bottom: 4vh;
+  padding-bottom: 20px;
+  color: white;
+  font-family: 'CustomFont2', serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+
+.form-section {
+  margin-top: 17vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  padding-bottom: 2vh;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  width: 8vw;
+  height: 5vh;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: teal;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rosybrown;
+}
+
+.input-box {
+  box-shadow: 0 8px 16px -6px rgba(0, 0, 0, 0.2);
+  clip-path: inset(-100px 0px -100px 0px);
+  padding-bottom: 2vh;
+  margin-bottom: 4vh;
+}
+
+input {
+  border: 2px solid grey;
+  border-radius: 5px;
+  height: 3vh;
+  width: 15vw;
+  margin-top: 0.5vh;
+  font-size: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+p {
+  margin-top: 5vh;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:active {
+  border-color: blue;
+}
+
+input:user-valid {
+  border-color: green;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+span {
+  position: absolute;
+  bottom: 1vh;
+  left: 12vw;
+  color: white;
+}
+
+span > a {
+  color: yellow;
+}
